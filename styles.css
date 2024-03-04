@@ -1,0 +1,115 @@
+body {
+    background-color: #070f2b;
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width: 599px){
+    .header {
+        font-size: 3rem;
+        padding: 10px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: dotted;
+    }
+    
+    .intro {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 10px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: none;
+        box-shadow: 0 4px 8px 0 #9290c3, 0 6px 20px 0 #535c92;
+        background-color: #1b1a55;
+    }
+    
+    .skills {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 10px;
+        text-align: left;
+        border-radius: 30px;
+        color: #070f2b;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #9290C3;
+    }
+    
+    .contact {
+        margin-top: 5rem;
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: none;
+        box-shadow: 0 4px 8px 0 #9290c3, 0 6px 20px 0 #535c92;
+        background-color: #1b1a55;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .header {
+        font-size: 3rem;
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: dotted;
+    }
+    
+    .intro {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: none;
+        box-shadow: 0 4px 8px 0 #9290c3, 0 6px 20px 0 #535c92;
+        background-color: #1b1a55;
+    }
+    
+    .skills {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 20px;
+        text-align: left;
+        border-radius: 30px;
+        color: #070f2b;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #9290C3;
+    }
+    
+    .contact {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        color: #9290c3;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #535c92;
+        border-style: none;
+        box-shadow: 0 4px 8px 0 #9290c3, 0 6px 20px 0 #535c92;
+        background-color: #1b1a55;
+    }
+}
